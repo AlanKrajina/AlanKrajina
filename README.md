@@ -13,3 +13,5 @@ If the cards match, they will remain open. If they don't match, they will flip o
 - be sure to keep you mind sharp because the stars rating goes down with more cards you select 
 - when you finish matching all cards a you receive a lucky charm
 - reset button will start the game from scratch
+
+# 🍀 Good Luck All🍀
