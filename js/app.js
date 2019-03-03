@@ -59,7 +59,7 @@ function shuffle(array) {
 }
 
  //declare variables for star icons
-const stars = document.querySelectorAll(".fa-star");
+let stars = document.querySelectorAll(".fa-star");
 
 // function to count player's moves
 function counterMoves(){
@@ -75,14 +75,14 @@ function counterMoves(){
     if (moves > 9 && moves < 11){
         for( i= 0; i < 3; i++){
             if(i > 1){
-                stars[i].style.display = "none";
+                stars[i].classList.add('hide');
             }
         }
     }
     else if (moves > 14){
         for( i= 0; i < 3; i++){
             if(i > 0){
-                stars[i].style.display = "none";
+                stars[i].classList.add('hide');
             }
         }
     } 
@@ -149,7 +149,7 @@ function resetMoves() {
 
 function resetRatings(){
     for (let i= 0; i < stars.length; i++){
-        stars[i].style.visibility = "visible";
+        stars[i].classList.remove('hide');
     }
 }
 
