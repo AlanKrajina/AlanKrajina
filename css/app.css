@@ -97,6 +97,10 @@ h1 {
     font-size: 33px;
 }
 
+.hide {
+    display: none;
+}
+
 /*
  * Styles for the Score Panel
  */
