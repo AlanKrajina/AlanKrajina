@@ -128,7 +128,6 @@ function resetGame() {
     resetMoves(); 
     resetRatings();
     startGame();
-    startClock()
 }
 
 function stopClock() {
