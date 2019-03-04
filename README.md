@@ -12,7 +12,7 @@ Memory Game, also known as Concentration, Match Match, Match Up, Pelmanism, Shin
 # Prerequisites
 - solid knowledge of HTML, CSS and JavaScript
 - one of great resources to learn basics of JavaScript is the Udacity "Intro to JavaScript", highly recommended
-- needed to write code is a text and development editor, I would recommend Sublime Text 3 as it is a proprietary cross-platform source code editor with a Python application programming interface (API)
+- to write code a text and development editor is required, I would recommend Sublime Text 3 as it is a proprietary cross-platform source code editor with a Python application programming interface (API)
 =>[Sublime Text 3 homepage with download links and install instructions](https://www.sublimetext.com/3 "Sublime Text 3")
 
 # Instructions
