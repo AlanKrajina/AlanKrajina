@@ -15,12 +15,15 @@ Memory Game, also known as Concentration, Match Match, Match Up, Pelmanism, Shin
 - needed to write code is a text and development editor, I would recommend Sublime Text 3 as it is a proprietary cross-platform source code editor with a Python application programming interface (API)
 =>[Sublime Text 3 homepage with download links and install instructions](https://www.sublimetext.com/3 "Sublime Text 3")
 
-# Features
+# Instructions
 - click on any card to start the game
 - as soon as you select your first card pair the timer and move counter start
 - if the cards match, they will remain open, if they don't match, they will flip over
 - be sure to keep you mind sharp because the stars rating goes down with more cards you select 
 - when you finish matching all cards you receive a lucky charm
 - reset button will start the game from scratch
+
+# Author
+Alan Krajina, Udacity Front-End Nanodegree student.
 
 # 🍀 Good Luck All🍀
