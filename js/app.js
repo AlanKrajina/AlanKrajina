@@ -111,7 +111,7 @@ function startClock() {
 }
 
 function displayTime() {
-    const clock = document.querySelector('.timer');
+    const clock = document.querySelector('.timer'); 
     const minutes = Math.floor(time / 60);
     const seconds = time % 60;
 
