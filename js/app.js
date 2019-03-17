@@ -94,7 +94,7 @@ function cardOpen() {
     let len = displayDeck.length;
     if(len === 2){
         counterMoves();
-        if(displayDeck[0].type === displayDeck[1].type){
+        if(displayDeck[0].type === displayDeck[1].type && displayDeck[0] !== displayDeck[1]){
             matched();
         } else {
             unmatched();
