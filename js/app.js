@@ -91,10 +91,14 @@ function counterMoves(){
 // function to add opened cards to OpenedCards list and check if cards are match
 function cardOpen() {
     displayDeck.push(this);
+                            // this -> li.card.open.show.disabled
+                            // displayDeck -> array, length: 1,2
     let len = displayDeck.length;
     if(len === 2){
         counterMoves();
         if(displayDeck[0].type === displayDeck[1].type && displayDeck[0] !== displayDeck[1]){
+                            // type: "bolt"
+                            // type: "leaf"
             matched();
         } else {
             unmatched();
