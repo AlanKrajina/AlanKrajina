@@ -24,7 +24,7 @@ function startGame(){
     // remove all exisiting classes from each card
     for (let i = 0; i < cards.length; i++){
         deck.innerHTML = "";
-        [].forEach.call(cards, function(item) {
+        [].forEach.call(cards, function(item) {    // Array.prototype.forEach.call(...);
             deck.appendChild(item);
         });
         cards[i].classList.remove("show", "open", "match", "disabled");
