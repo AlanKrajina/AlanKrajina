@@ -238,9 +238,10 @@ h1 {
  * Styles for usability
  */
 
-@media (max-width: 360px) {
-.deck {
+ @media screen and (max-width: 760px) and (min-width: 360px) {
+    .deck {
     width: 85%;
+    padding: 12px;
 }
 
 .deck .card {
