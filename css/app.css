@@ -241,7 +241,7 @@ h1 {
  @media screen and (max-width: 760px) and (min-width: 360px) {
     .deck {
     width: 85%;
-    padding: 12px;
+    padding: 11px;
     min-height: 400px;
 }
 
@@ -260,6 +260,7 @@ h1 {
     width: 95%;
 }
 h1{
-font-size: 40px;
+    font-size: 40px;
+    text-align: center;
 }
 }
