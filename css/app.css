@@ -242,11 +242,12 @@ h1 {
     .deck {
     width: 85%;
     padding: 12px;
+    min-height: 400px;
 }
 
 .deck .card {
-    height: 4.4rem;
-    width: 5.7rem;
+    height: 4.5rem;
+    width: 4rem;
 }
 
 .winScreen {
@@ -257,5 +258,8 @@ h1 {
 .popup{
     height: 75%;
     width: 95%;
+}
+h1{
+font-size: 40px;
 }
 }
