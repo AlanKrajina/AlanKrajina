@@ -24,9 +24,7 @@ function startGame(){
     // remove all exisiting classes from each card
     for (let i = 0; i < cards.length; i++){
         deck.innerHTML = "";
-        [].forEach.call(cards, function(item) {    // Array.prototype.forEach.call(...); 
-                                    // Take the forEach function from Array.prototype and call it on cards, which is a non-Array object, with function as its argument with item = card.
-       // cards.forEach(item =>  {...}  
+        cards.forEach(item =>{ 
          deck.appendChild(item);
         });
         cards[i].classList.remove("show", "open", "match", "disabled");
@@ -38,7 +36,7 @@ function startGame(){
 
 // deck shuffling function
 function shuffleDeck() {
-  const cardsToShuffle = Array.from(document.querySelectorAll('.deck li'));
+  const cardsToShuffle = Array.from(document.querySelectorAll('.deck li')); // array creation
   const shuffledCards = shuffle(cardsToShuffle);
   for (card of shuffledCards) {
     deck.appendChild(card);
@@ -189,7 +187,7 @@ function unmatched(){
 
 // function for disabling cards temporarily
 function disable(){
-    Array.prototype.filter.call(cards, function(card){
+    cards.filter(card=>{
         card.classList.add('disabled');
     });
 }
@@ -199,7 +197,7 @@ let matchedCard = document.getElementsByClassName("match");
 
 // function to enable cards and disable matched cards
 function enable(){
-    Array.prototype.filter.call(cards, function(card){
+    cards.filter(card=>{
         card.classList.remove('disabled');
         for(let i = 0; i < matchedCard.length; i++){
             matchedCard[i].classList.add("disabled");
